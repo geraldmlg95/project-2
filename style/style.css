@@ -1,0 +1,108 @@
+.top-bar {
+  background-color: #dedede;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px 15px 30px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+  margin-left: 20px;
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: #5C2622;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.banner {
+  width: 100%;
+  max-height: 500px;
+  overflow-y: hidden;
+  overflow-y: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.banner img {
+  width: 100%;
+}
+
+/* * body {
+  background-image: url(../img/ayyappa-vardhan-h1Gzq-MJk74-unsplash.jpg);
+  background-position: top;
+  background-size: cover; 
+} */
+
+.welcome h1 {
+  text-align: center;
+  font-style: italic;
+  color: #000;
+}
+
+.welcome p {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+  color: #000;
+}
+
+.history h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.history p {
+  margin: 100px;
+}
+
+.banner .caption {
+  position: absolute;
+  z-index: 2;
+  top: 0%;
+  color: #fff;
+  left: 42%;
+  text-align: center;
+}
+
+/* Banner  */
+
+.banner-2 {
+  display: flex;
+  height: 100vh;
+  overflow-y: hidden;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  background-image: url(../img/melih-karaahmet-Tkz9YXDn3FY-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* .banner-2 .image-banner {
+  width: 100%;
+}
+
+.banner-2 .image-banner img {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+
+}*/
+
+.banner-2 .caption {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
